@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 300px;
+    padding: 20px;
+}
+
+#commentInput, #taskInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#saveCommentButton, #addTaskButton {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+}
+
+#saveCommentButton:hover, #addTaskButton:hover {
+    background-color: #449d44;
+}
+
+#commentList, #taskList {
+    margin-top: 20px;
+}
+
+.comment, .task {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.comment .timestamp, .task .dueDate {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.comment .deleteButton, .task .updateButton {
+    float: right;
+    background: none;
+    border: none;
+    color: #c9302c;
+    cursor: pointer;
+}
